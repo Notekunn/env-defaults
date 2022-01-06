@@ -1,6 +1,6 @@
 {
 	"name": "env-defaults",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Loads environment variables from .env file with default value",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
