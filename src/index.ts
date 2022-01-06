@@ -1,7 +1,7 @@
 export interface EnvConfig {
 	[key: string]: string | boolean | number;
 }
-export const load = (envConfig: EnvConfig) => {
+export const load = <T extends EnvConfig>(envConfig: T) => {
 	const env: EnvConfig = {};
 
 	for (const key in envConfig) {
@@ -23,5 +23,5 @@ export const load = (envConfig: EnvConfig) => {
 			}
 		}
 	}
-	return env;
+	return env as T;
 };
