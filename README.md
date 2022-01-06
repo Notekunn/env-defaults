@@ -1,15 +1,15 @@
-# env-default
+# env-defaults
 
-Env-default is zero-dependency module to load environment variables from file. Can compatibility use with [dotenv](https://www.npmjs.com/package/dotenv)
+Env-defaults is zero-dependency module to load environment variables from file. Can compatibility use with [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Install
 
 ```bash
 # with npm
-npm install env-default
+npm install env-defaults
 
 # or with Yarn
-yarn add env-default
+yarn add env-defaults
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add env-default
 ### Javascript
 
 ```javascript
-const envDefault = require('env-default');
+const envDefault = require('env-defaults');
 
 const { PORT, NODE_ENV, IS_PRODUCTION } = envDefault.load({
 	PORT: 3000,
@@ -29,7 +29,7 @@ const { PORT, NODE_ENV, IS_PRODUCTION } = envDefault.load({
 ### TypeScript
 
 ```typescript
-import { load } from 'env-default';
+import { load } from 'env-defaults';
 
 const { PORT, NODE_ENV, IS_PRODUCTION } = load({
 	PORT: 3000,

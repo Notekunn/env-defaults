@@ -1,18 +1,18 @@
 {
-  "name": "env-default",
-  "version": "1.0.0",
-  "description": "Loads environment variables from .env file with default value",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^27.4.7",
-    "typescript": "^4.5.4"
-  },
-  "dependencies": {}
+	"name": "env-defaults",
+	"version": "1.0.1",
+	"description": "Loads environment variables from .env file with default value",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc -w",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"jest": "^27.4.7",
+		"typescript": "^4.5.4"
+	},
+	"dependencies": {}
 }
