@@ -1,6 +1,6 @@
 {
 	"name": "env-defaults",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Loads environment variables from .env file with default value",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -14,5 +14,7 @@
 		"jest": "^27.4.7",
 		"typescript": "^4.5.4"
 	},
-	"dependencies": {}
+	"dependencies": {},
+	"repository": "git@github.com:Notekunn/env-defaults.git",
+	"author": "Trần Đức Cường <clonebmn2itt@gmail.com>"
 }
